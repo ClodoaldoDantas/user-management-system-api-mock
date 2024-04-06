@@ -1,0 +1,16 @@
+{
+  "name": "user-management-system-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "json-server --watch ./src/index.js --port 3333 --delay 700"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "json-server": "^0.17.4"
+  }
+}
